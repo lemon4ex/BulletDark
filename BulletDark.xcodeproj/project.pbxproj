@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C95A1B4A21EFAA590041F726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95A1B4921EFAA590041F726 /* Foundation.framework */; };
+		C95A1B5E21EFAA5A0041F726 /* BulletDark.h in Headers */ = {isa = PBXBuildFile; fileRef = C95A1B5D21EFAA5A0041F726 /* BulletDark.h */; };
+		C95A1B6021EFAA5A0041F726 /* BulletDark.m in Sources */ = {isa = PBXBuildFile; fileRef = C95A1B5F21EFAA5A0041F726 /* BulletDark.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C95A1B4E21EFAA590041F726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95A1B3C21EFAA590041F726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95A1B4521EFAA590041F726;
+			remoteInfo = BulletDark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C95A1B4621EFAA590041F726 /* BulletDark.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = BulletDark.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95A1B4921EFAA590041F726 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C95A1B4D21EFAA590041F726 /* JYLIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYLIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95A1B5321EFAA590041F726 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		C95A1B5421EFAA590041F726 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		C95A1B5621EFAA590041F726 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		C95A1B5721EFAA590041F726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95A1B5821EFAA590041F726 /* BulletDark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BulletDark-Prefix.pch"; sourceTree = "<group>"; };
+		C95A1B5921EFAA5A0041F726 /* preinst */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = preinst; path = Package/DEBIAN/preinst; sourceTree = "<group>"; };
+		C95A1B5A21EFAA5A0041F726 /* postinst */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = postinst; path = Package/DEBIAN/postinst; sourceTree = "<group>"; };
+		C95A1B5B21EFAA5A0041F726 /* postrm */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = postrm; path = Package/DEBIAN/postrm; sourceTree = "<group>"; };
+		C95A1B5C21EFAA5A0041F726 /* prerm */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = prerm; path = Package/DEBIAN/prerm; sourceTree = "<group>"; };
+		C95A1B5D21EFAA5A0041F726 /* BulletDark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulletDark.h; sourceTree = "<group>"; };
+		C95A1B5F21EFAA5A0041F726 /* BulletDark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulletDark.m; sourceTree = "<group>"; };
+		C95A1B6421EFAA5A0041F726 /* BulletDark.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = BulletDark.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/BulletDark.plist; sourceTree = "<group>"; };
+		C95A1B6621EFAA5A0041F726 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.txt; path = ../Resources/README.txt; sourceTree = "<group>"; };
+		C95A1B6721EFAA5A0041F726 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		C95A1B6821EFAA5A0041F726 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C95A1B4121EFAA590041F726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95A1B4A21EFAA590041F726 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C95A1B3B21EFAA590041F726 = {
+			isa = PBXGroup;
+			children = (
+				C95A1B5021EFAA590041F726 /* BulletDark */,
+				C95A1B4821EFAA590041F726 /* Frameworks */,
+				C95A1B4721EFAA590041F726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C95A1B4721EFAA590041F726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C95A1B4621EFAA590041F726 /* BulletDark.dylib */,
+				C95A1B4D21EFAA590041F726 /* JYLIM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C95A1B4821EFAA590041F726 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C95A1B4921EFAA590041F726 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C95A1B5021EFAA590041F726 /* BulletDark */ = {
+			isa = PBXGroup;
+			children = (
+				C95A1B5D21EFAA5A0041F726 /* BulletDark.h */,
+				C95A1B5F21EFAA5A0041F726 /* BulletDark.m */,
+				C95A1B5121EFAA590041F726 /* Package */,
+				C95A1B6521EFAA5A0041F726 /* Resources */,
+				C95A1B5521EFAA590041F726 /* Supporting Files */,
+			);
+			path = BulletDark;
+			sourceTree = "<group>";
+		};
+		C95A1B5121EFAA590041F726 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				C95A1B5221EFAA590041F726 /* DEBIAN */,
+				C95A1B6121EFAA5A0041F726 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		C95A1B5221EFAA590041F726 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				C95A1B5321EFAA590041F726 /* control */,
+				C95A1B5421EFAA590041F726 /* control.txt */,
+				C95A1B5921EFAA5A0041F726 /* preinst */,
+				C95A1B5A21EFAA5A0041F726 /* postinst */,
+				C95A1B5B21EFAA5A0041F726 /* postrm */,
+				C95A1B5C21EFAA5A0041F726 /* prerm */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		C95A1B5521EFAA590041F726 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C95A1B5621EFAA590041F726 /* PackageVersion.plist */,
+				C95A1B5721EFAA590041F726 /* Info.plist */,
+				C95A1B5821EFAA590041F726 /* BulletDark-Prefix.pch */,
+				C95A1B6721EFAA5A0041F726 /* .gitignore */,
+				C95A1B6821EFAA5A0041F726 /* README.md */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C95A1B6121EFAA5A0041F726 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C95A1B6221EFAA5A0041F726 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C95A1B6221EFAA5A0041F726 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				C95A1B6321EFAA5A0041F726 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		C95A1B6321EFAA5A0041F726 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				C95A1B6421EFAA5A0041F726 /* BulletDark.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		C95A1B6521EFAA5A0041F726 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C95A1B6621EFAA5A0041F726 /* README.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C95A1B4221EFAA590041F726 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95A1B5E21EFAA5A0041F726 /* BulletDark.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C95A1B4521EFAA590041F726 /* BulletDark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95A1B6B21EFAA5A0041F726 /* Build configuration list for PBXNativeTarget "BulletDark" */;
+			buildPhases = (
+				C95A1B4021EFAA590041F726 /* Sources */,
+				C95A1B4121EFAA590041F726 /* Frameworks */,
+				C95A1B4221EFAA590041F726 /* Headers */,
+				C95A1B4321EFAA590041F726 /* ShellScript */,
+				C95A1B4421EFAA590041F726 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BulletDark;
+			productName = BulletDark;
+			productReference = C95A1B4621EFAA590041F726 /* BulletDark.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		C95A1B4C21EFAA590041F726 /* JYLIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95A1B6E21EFAA5A0041F726 /* Build configuration list for PBXNativeTarget "JYLIM" */;
+			buildPhases = (
+				C95A1B4B21EFAA590041F726 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95A1B4F21EFAA590041F726 /* PBXTargetDependency */,
+			);
+			name = JYLIM;
+			productName = JYLIM;
+			productReference = C95A1B4D21EFAA590041F726 /* JYLIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C95A1B3C21EFAA590041F726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					C95A1B4521EFAA590041F726 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C95A1B4C21EFAA590041F726 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C95A1B3F21EFAA590041F726 /* Build configuration list for PBXProject "BulletDark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C95A1B3B21EFAA590041F726;
+			productRefGroup = C95A1B4721EFAA590041F726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C95A1B4521EFAA590041F726 /* BulletDark */,
+				C95A1B4C21EFAA590041F726 /* JYLIM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C95A1B4321EFAA590041F726 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# rm -rf \"${PROJECT_DIR}/${TARGET_NAME}/Package/usr/bin/*\"\n# cp -rf \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/PalmRiskSvr\" \"${PROJECT_DIR}/${TARGET_NAME}/Package/usr/bin/\"\n\n# 自动更新deb包版本号\necho $CONFIGURATION\nif [ \"Release\" == \"${CONFIGURATION}\" ]\nthen\npackInfoPlist=\"${PROJECT_DIR}/${TARGET_NAME}/PackageVersion.plist\"\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print PackageRevision\" \"${packInfoPlist}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :PackageRevision $buildNumber\" \"${packInfoPlist}\"\necho \"build number increase\"\nfi";
+		};
+		C95A1B4421EFAA590041F726 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/EasyDev/bin/md --xcbp";
+		};
+		C95A1B4B21EFAA590041F726 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nfunction doCodeSign() {\n    cslist=$(/usr/bin/find \"${1}\" -name \"_CodeSignature\")\n    SAVEIFS=\"$IFS\"\n    IFS=$'\\n'\n    for cs in $cslist; do\n    rm -rf \"${cs}\"\n    done\n    \n    # resign dylib\n    IFS=\"$SAVEIFS\"\n    dylibs=$(/usr/bin/find \"${1}\" -name \"*.dylib\")\n    # 解决路径粘连的问题\n    IFS=$'\\n'\n    for dylib in $dylibs; do\n    /usr/bin/codesign --force --sign \"${2}\" \"$dylib\"\n    done\n    \n    # resign frameworks\n    IFS=\"$SAVEIFS\"\n    frameworks=$(/usr/bin/find \"${1}\" -name \"*.framework\")\n    IFS=$'\\n'\n    for framework in $frameworks; do\n    /usr/bin/codesign --force --sign \"${2}\" \"$framework\"\n    done\n}\n\nif [ \"${CONFIGURATION}\" == \"Debug\" ];then\ntarget_exe_name=\"${TARGET_NAME}_arm64\"\nelif [ \"${CONFIGURATION}\" == \"Debug_32\" ];then\ntarget_exe_name=\"${TARGET_NAME}_armv7\"\nelse\necho \"错误的工程配置\"\nexit;\nfi\n\nresource_path=\"${SRCROOT}/Resources\"\ntarget_app_name=\"${TARGET_NAME}.app\"\nsign_id=\"${EXPANDED_CODE_SIGN_IDENTITY}\"\ndylib_path=\"${BUILT_PRODUCTS_DIR}/${PROJECT_NAME}.dylib\"\nresource_exe_path=\"${resource_path}/${target_exe_name}\"\nproduct_exe_path=\"${BUILT_PRODUCTS_DIR}/${target_app_name}/${TARGET_NAME}\"\nproduct_app_path=\"${BUILT_PRODUCTS_DIR}/${target_app_name}\"\nresource_app_path=\"${resource_path}/${target_app_name}\"\n\nrm -rf \"${product_app_path}\"\ncp -rf \"${resource_app_path}\" \"${product_app_path}\"\ncp -rf \"${resource_exe_path}\" \"${product_exe_path}\"\ncp -rf \"${dylib_path}\" \"${product_app_path}\"\n\n# remove Plugin an Watch\nrm -rf \"$product_app_path/PlugIns\"\nrm -rf \"$product_app_path/Watch\"\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleIdentifier ${PRODUCT_BUNDLE_IDENTIFIER}\" \"${product_app_path}/Info.plist\"\n\n/opt/EasyDev/bin/optool install -p \"@executable_path/${PROJECT_NAME}.dylib\" -t \"${product_exe_path}\"\n\n# 注意，这一步必须\nchmod 777 \"${product_exe_path}\"\n\n# 只需要签名动态库就行，app签名xcode会自己处理\ndoCodeSign \"${product_app_path}\" \"${sign_id}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C95A1B4021EFAA590041F726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95A1B6021EFAA5A0041F726 /* BulletDark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C95A1B4F21EFAA590041F726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C95A1B4521EFAA590041F726 /* BulletDark */;
+			targetProxy = C95A1B4E21EFAA590041F726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C95A1B6921EFAA5A0041F726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EasyDevPath = /opt/EasyDev;
+				EasyDevTheosPath = /opt/theos;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/frameworks",
+					"$(EasyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/include",
+					"$(EasyDevTheosPath)/vendor/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevTheosPath)/vendor/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C95A1B6A21EFAA5A0041F726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EasyDevPath = /opt/EasyDev;
+				EasyDevTheosPath = /opt/theos;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/frameworks",
+					"$(EasyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/include",
+					"$(EasyDevTheosPath)/vendor/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevTheosPath)/vendor/lib",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		C95A1B6C21EFAA5A0041F726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B8J3GNFE6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EasyDevBuildPackageOnAnyBuild = NO;
+				EasyDevClearUiCacheOnInstall = NO;
+				EasyDevCopyOnBuild = NO;
+				EasyDevDeviceIP = "";
+				EasyDevDevicePort = "";
+				EasyDevInstallOnAnyBuild = 0;
+				EasyDevInstallOnProfiling = 0;
+				EasyDevUsePackageVersionPList = YES;
+				EasyDevkillProcessOnInstall = SpringBoard;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BulletDark/BulletDark-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/include",
+					"$(EasyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C95A1B6D21EFAA5A0041F726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B8J3GNFE6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EasyDevBuildPackageOnAnyBuild = NO;
+				EasyDevClearUiCacheOnInstall = NO;
+				EasyDevCopyOnBuild = NO;
+				EasyDevDeviceIP = "";
+				EasyDevDevicePort = "";
+				EasyDevInstallOnAnyBuild = 0;
+				EasyDevInstallOnProfiling = 0;
+				EasyDevUsePackageVersionPList = YES;
+				EasyDevkillProcessOnInstall = SpringBoard;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BulletDark/BulletDark-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/include",
+					"$(EasyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C95A1B6F21EFAA5A0041F726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9B8J3GNFE6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = BulletDark/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bullet.message;
+				PRODUCT_NAME = JYLIM;
+			};
+			name = Release;
+		};
+		C95A1B7021EFAA5A0041F726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9B8J3GNFE6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = BulletDark/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bullet.message;
+				PRODUCT_NAME = JYLIM;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C95A1B3F21EFAA590041F726 /* Build configuration list for PBXProject "BulletDark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95A1B6921EFAA5A0041F726 /* Release */,
+				C95A1B6A21EFAA5A0041F726 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95A1B6B21EFAA5A0041F726 /* Build configuration list for PBXNativeTarget "BulletDark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95A1B6C21EFAA5A0041F726 /* Release */,
+				C95A1B6D21EFAA5A0041F726 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95A1B6E21EFAA5A0041F726 /* Build configuration list for PBXNativeTarget "JYLIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95A1B6F21EFAA5A0041F726 /* Release */,
+				C95A1B7021EFAA5A0041F726 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C95A1B3C21EFAA590041F726 /* Project object */;
+}
