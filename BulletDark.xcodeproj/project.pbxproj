@@ -10,6 +10,37 @@
 		C95A1B4A21EFAA590041F726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95A1B4921EFAA590041F726 /* Foundation.framework */; };
 		C95A1B5E21EFAA5A0041F726 /* BulletDark.h in Headers */ = {isa = PBXBuildFile; fileRef = C95A1B5D21EFAA5A0041F726 /* BulletDark.h */; };
 		C95A1B6021EFAA5A0041F726 /* BulletDark.m in Sources */ = {isa = PBXBuildFile; fileRef = C95A1B5F21EFAA5A0041F726 /* BulletDark.m */; };
+		C9F85DE921F085B200C3171E /* NTESCustomAttachmentInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DCA21F085B100C3171E /* NTESCustomAttachmentInfo.h */; };
+		C9F85DEA21F085B200C3171E /* NIMSession-SMNIMSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DCB21F085B100C3171E /* NIMSession-SMNIMSession.h */; };
+		C9F85DEB21F085B200C3171E /* SMContactManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DCC21F085B100C3171E /* SMContactManager.h */; };
+		C9F85DEC21F085B200C3171E /* NIMLoginManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DCD21F085B100C3171E /* NIMLoginManagerDelegate.h */; };
+		C9F85DED21F085B200C3171E /* SMSensorsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DCE21F085B100C3171E /* SMSensorsManager.h */; };
+		C9F85DEE21F085B200C3171E /* NIMUserManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DCF21F085B100C3171E /* NIMUserManagerDelegate.h */; };
+		C9F85DEF21F085B200C3171E /* OpenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DD021F085B100C3171E /* OpenRequest.h */; };
+		C9F85DF021F085B200C3171E /* NIMMessageObject-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DD121F085B100C3171E /* NIMMessageObject-Protocol.h */; };
+		C9F85DF121F085B200C3171E /* NTESRedPacketAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DD221F085B100C3171E /* NTESRedPacketAttachment.h */; };
+		C9F85DF221F085B200C3171E /* NIMSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DD321F085B100C3171E /* NIMSessionManager.h */; };
+		C9F85DF321F085B200C3171E /* NIMSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DD421F085B100C3171E /* NIMSession.h */; };
+		C9F85DF421F085B200C3171E /* NTESRedPacketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DD521F085B100C3171E /* NTESRedPacketManager.h */; };
+		C9F85DF521F085B200C3171E /* NIMCustomAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DD621F085B100C3171E /* NIMCustomAttachment.h */; };
+		C9F85DF621F085B200C3171E /* NIMChatManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DD721F085B100C3171E /* NIMChatManagerDelegate.h */; };
+		C9F85DF721F085B200C3171E /* NIMChatManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DD821F085B100C3171E /* NIMChatManager.h */; };
+		C9F85DF821F085B200C3171E /* NIMChatManagerWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DD921F085B100C3171E /* NIMChatManagerWrapper.h */; };
+		C9F85DF921F085B200C3171E /* NIMChatManager-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DDA21F085B100C3171E /* NIMChatManager-Protocol.h */; };
+		C9F85DFA21F085B200C3171E /* NIMManager-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DDB21F085B100C3171E /* NIMManager-Protocol.h */; };
+		C9F85DFB21F085B200C3171E /* SMRedPacketDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DDC21F085B100C3171E /* SMRedPacketDelegate.h */; };
+		C9F85DFC21F085B200C3171E /* NIMManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DDD21F085B100C3171E /* NIMManager.h */; };
+		C9F85DFD21F085B200C3171E /* SMC2CRedPacketApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DDE21F085B100C3171E /* SMC2CRedPacketApiManager.h */; };
+		C9F85DFE21F085B200C3171E /* NIMMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DDF21F085B100C3171E /* NIMMessage.h */; };
+		C9F85DFF21F085B200C3171E /* OpenRedPacketRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DE021F085B100C3171E /* OpenRedPacketRequest.h */; };
+		C9F85E0021F085B200C3171E /* SMUTility.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DE121F085B100C3171E /* SMUTility.h */; };
+		C9F85E0121F085B200C3171E /* SMHttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DE221F085B100C3171E /* SMHttpResponse.h */; };
+		C9F85E0221F085B200C3171E /* SMC2CRedPacketV2ApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DE321F085B100C3171E /* SMC2CRedPacketV2ApiManager.h */; };
+		C9F85E0321F085B200C3171E /* NIMMessageObject_Private-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DE421F085B100C3171E /* NIMMessageObject_Private-Protocol.h */; };
+		C9F85E0421F085B200C3171E /* NIMCustomObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DE521F085B100C3171E /* NIMCustomObject.h */; };
+		C9F85E0521F085B200C3171E /* NIMTeamManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DE621F085B100C3171E /* NIMTeamManagerDelegate.h */; };
+		C9F85E0621F085B200C3171E /* NIMMessageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DE721F085B100C3171E /* NIMMessageInfo.h */; };
+		C9F85E0721F085B200C3171E /* SMBaseApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F85DE821F085B100C3171E /* SMBaseApiManager.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +72,37 @@
 		C95A1B6621EFAA5A0041F726 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.txt; path = ../Resources/README.txt; sourceTree = "<group>"; };
 		C95A1B6721EFAA5A0041F726 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 		C95A1B6821EFAA5A0041F726 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C9F85DCA21F085B100C3171E /* NTESCustomAttachmentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESCustomAttachmentInfo.h; sourceTree = "<group>"; };
+		C9F85DCB21F085B100C3171E /* NIMSession-SMNIMSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NIMSession-SMNIMSession.h"; sourceTree = "<group>"; };
+		C9F85DCC21F085B100C3171E /* SMContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMContactManager.h; sourceTree = "<group>"; };
+		C9F85DCD21F085B100C3171E /* NIMLoginManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMLoginManagerDelegate.h; sourceTree = "<group>"; };
+		C9F85DCE21F085B100C3171E /* SMSensorsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSensorsManager.h; sourceTree = "<group>"; };
+		C9F85DCF21F085B100C3171E /* NIMUserManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMUserManagerDelegate.h; sourceTree = "<group>"; };
+		C9F85DD021F085B100C3171E /* OpenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenRequest.h; sourceTree = "<group>"; };
+		C9F85DD121F085B100C3171E /* NIMMessageObject-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NIMMessageObject-Protocol.h"; sourceTree = "<group>"; };
+		C9F85DD221F085B100C3171E /* NTESRedPacketAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESRedPacketAttachment.h; sourceTree = "<group>"; };
+		C9F85DD321F085B100C3171E /* NIMSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSessionManager.h; sourceTree = "<group>"; };
+		C9F85DD421F085B100C3171E /* NIMSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSession.h; sourceTree = "<group>"; };
+		C9F85DD521F085B100C3171E /* NTESRedPacketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESRedPacketManager.h; sourceTree = "<group>"; };
+		C9F85DD621F085B100C3171E /* NIMCustomAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMCustomAttachment.h; sourceTree = "<group>"; };
+		C9F85DD721F085B100C3171E /* NIMChatManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatManagerDelegate.h; sourceTree = "<group>"; };
+		C9F85DD821F085B100C3171E /* NIMChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatManager.h; sourceTree = "<group>"; };
+		C9F85DD921F085B100C3171E /* NIMChatManagerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatManagerWrapper.h; sourceTree = "<group>"; };
+		C9F85DDA21F085B100C3171E /* NIMChatManager-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NIMChatManager-Protocol.h"; sourceTree = "<group>"; };
+		C9F85DDB21F085B100C3171E /* NIMManager-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NIMManager-Protocol.h"; sourceTree = "<group>"; };
+		C9F85DDC21F085B100C3171E /* SMRedPacketDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRedPacketDelegate.h; sourceTree = "<group>"; };
+		C9F85DDD21F085B100C3171E /* NIMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMManager.h; sourceTree = "<group>"; };
+		C9F85DDE21F085B100C3171E /* SMC2CRedPacketApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMC2CRedPacketApiManager.h; sourceTree = "<group>"; };
+		C9F85DDF21F085B100C3171E /* NIMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMessage.h; sourceTree = "<group>"; };
+		C9F85DE021F085B100C3171E /* OpenRedPacketRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenRedPacketRequest.h; sourceTree = "<group>"; };
+		C9F85DE121F085B100C3171E /* SMUTility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUTility.h; sourceTree = "<group>"; };
+		C9F85DE221F085B100C3171E /* SMHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMHttpResponse.h; sourceTree = "<group>"; };
+		C9F85DE321F085B100C3171E /* SMC2CRedPacketV2ApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMC2CRedPacketV2ApiManager.h; sourceTree = "<group>"; };
+		C9F85DE421F085B100C3171E /* NIMMessageObject_Private-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NIMMessageObject_Private-Protocol.h"; sourceTree = "<group>"; };
+		C9F85DE521F085B100C3171E /* NIMCustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMCustomObject.h; sourceTree = "<group>"; };
+		C9F85DE621F085B100C3171E /* NIMTeamManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeamManagerDelegate.h; sourceTree = "<group>"; };
+		C9F85DE721F085B100C3171E /* NIMMessageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMessageInfo.h; sourceTree = "<group>"; };
+		C9F85DE821F085B100C3171E /* SMBaseApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBaseApiManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +146,7 @@
 		C95A1B5021EFAA590041F726 /* BulletDark */ = {
 			isa = PBXGroup;
 			children = (
+				C9F85DC921F085B100C3171E /* BulletHeader */,
 				C95A1B5D21EFAA5A0041F726 /* BulletDark.h */,
 				C95A1B5F21EFAA5A0041F726 /* BulletDark.m */,
 				C95A1B5121EFAA590041F726 /* Package */,
@@ -159,6 +222,44 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		C9F85DC921F085B100C3171E /* BulletHeader */ = {
+			isa = PBXGroup;
+			children = (
+				C9F85DCA21F085B100C3171E /* NTESCustomAttachmentInfo.h */,
+				C9F85DCB21F085B100C3171E /* NIMSession-SMNIMSession.h */,
+				C9F85DCC21F085B100C3171E /* SMContactManager.h */,
+				C9F85DCD21F085B100C3171E /* NIMLoginManagerDelegate.h */,
+				C9F85DCE21F085B100C3171E /* SMSensorsManager.h */,
+				C9F85DCF21F085B100C3171E /* NIMUserManagerDelegate.h */,
+				C9F85DD021F085B100C3171E /* OpenRequest.h */,
+				C9F85DD121F085B100C3171E /* NIMMessageObject-Protocol.h */,
+				C9F85DD221F085B100C3171E /* NTESRedPacketAttachment.h */,
+				C9F85DD321F085B100C3171E /* NIMSessionManager.h */,
+				C9F85DD421F085B100C3171E /* NIMSession.h */,
+				C9F85DD521F085B100C3171E /* NTESRedPacketManager.h */,
+				C9F85DD621F085B100C3171E /* NIMCustomAttachment.h */,
+				C9F85DD721F085B100C3171E /* NIMChatManagerDelegate.h */,
+				C9F85DD821F085B100C3171E /* NIMChatManager.h */,
+				C9F85DD921F085B100C3171E /* NIMChatManagerWrapper.h */,
+				C9F85DDA21F085B100C3171E /* NIMChatManager-Protocol.h */,
+				C9F85DDB21F085B100C3171E /* NIMManager-Protocol.h */,
+				C9F85DDC21F085B100C3171E /* SMRedPacketDelegate.h */,
+				C9F85DDD21F085B100C3171E /* NIMManager.h */,
+				C9F85DDE21F085B100C3171E /* SMC2CRedPacketApiManager.h */,
+				C9F85DDF21F085B100C3171E /* NIMMessage.h */,
+				C9F85DE021F085B100C3171E /* OpenRedPacketRequest.h */,
+				C9F85DE121F085B100C3171E /* SMUTility.h */,
+				C9F85DE221F085B100C3171E /* SMHttpResponse.h */,
+				C9F85DE321F085B100C3171E /* SMC2CRedPacketV2ApiManager.h */,
+				C9F85DE421F085B100C3171E /* NIMMessageObject_Private-Protocol.h */,
+				C9F85DE521F085B100C3171E /* NIMCustomObject.h */,
+				C9F85DE621F085B100C3171E /* NIMTeamManagerDelegate.h */,
+				C9F85DE721F085B100C3171E /* NIMMessageInfo.h */,
+				C9F85DE821F085B100C3171E /* SMBaseApiManager.h */,
+			);
+			path = BulletHeader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -166,7 +267,38 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F85DF221F085B200C3171E /* NIMSessionManager.h in Headers */,
+				C9F85DE921F085B200C3171E /* NTESCustomAttachmentInfo.h in Headers */,
+				C9F85E0321F085B200C3171E /* NIMMessageObject_Private-Protocol.h in Headers */,
+				C9F85DFA21F085B200C3171E /* NIMManager-Protocol.h in Headers */,
+				C9F85DFC21F085B200C3171E /* NIMManager.h in Headers */,
+				C9F85DF821F085B200C3171E /* NIMChatManagerWrapper.h in Headers */,
+				C9F85DEC21F085B200C3171E /* NIMLoginManagerDelegate.h in Headers */,
+				C9F85DEA21F085B200C3171E /* NIMSession-SMNIMSession.h in Headers */,
+				C9F85DF921F085B200C3171E /* NIMChatManager-Protocol.h in Headers */,
+				C9F85DFD21F085B200C3171E /* SMC2CRedPacketApiManager.h in Headers */,
+				C9F85E0021F085B200C3171E /* SMUTility.h in Headers */,
 				C95A1B5E21EFAA5A0041F726 /* BulletDark.h in Headers */,
+				C9F85DF721F085B200C3171E /* NIMChatManager.h in Headers */,
+				C9F85DFB21F085B200C3171E /* SMRedPacketDelegate.h in Headers */,
+				C9F85DED21F085B200C3171E /* SMSensorsManager.h in Headers */,
+				C9F85DF121F085B200C3171E /* NTESRedPacketAttachment.h in Headers */,
+				C9F85DF621F085B200C3171E /* NIMChatManagerDelegate.h in Headers */,
+				C9F85DEE21F085B200C3171E /* NIMUserManagerDelegate.h in Headers */,
+				C9F85DEF21F085B200C3171E /* OpenRequest.h in Headers */,
+				C9F85E0421F085B200C3171E /* NIMCustomObject.h in Headers */,
+				C9F85E0621F085B200C3171E /* NIMMessageInfo.h in Headers */,
+				C9F85DF521F085B200C3171E /* NIMCustomAttachment.h in Headers */,
+				C9F85DFF21F085B200C3171E /* OpenRedPacketRequest.h in Headers */,
+				C9F85DF421F085B200C3171E /* NTESRedPacketManager.h in Headers */,
+				C9F85E0721F085B200C3171E /* SMBaseApiManager.h in Headers */,
+				C9F85E0121F085B200C3171E /* SMHttpResponse.h in Headers */,
+				C9F85DF021F085B200C3171E /* NIMMessageObject-Protocol.h in Headers */,
+				C9F85DF321F085B200C3171E /* NIMSession.h in Headers */,
+				C9F85E0221F085B200C3171E /* SMC2CRedPacketV2ApiManager.h in Headers */,
+				C9F85DEB21F085B200C3171E /* SMContactManager.h in Headers */,
+				C9F85DFE21F085B200C3171E /* NIMMessage.h in Headers */,
+				C9F85E0521F085B200C3171E /* NIMTeamManagerDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +386,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n\n# rm -rf \"${PROJECT_DIR}/${TARGET_NAME}/Package/usr/bin/*\"\n# cp -rf \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/PalmRiskSvr\" \"${PROJECT_DIR}/${TARGET_NAME}/Package/usr/bin/\"\n\n# 自动更新deb包版本号\necho $CONFIGURATION\nif [ \"Release\" == \"${CONFIGURATION}\" ]\nthen\npackInfoPlist=\"${PROJECT_DIR}/${TARGET_NAME}/PackageVersion.plist\"\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print PackageRevision\" \"${packInfoPlist}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :PackageRevision $buildNumber\" \"${packInfoPlist}\"\necho \"build number increase\"\nfi";
+			shellScript = "#!/bin/sh\n\n# rm -rf \"${PROJECT_DIR}/${TARGET_NAME}/Package/usr/bin/*\"\n# cp -rf \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/PalmRiskSvr\" \"${PROJECT_DIR}/${TARGET_NAME}/Package/usr/bin/\"\n\n# 自动更新deb包版本号\necho $CONFIGURATION\nif [ \"Release\" == \"${CONFIGURATION}\" ]\nthen\npackInfoPlist=\"${PROJECT_DIR}/${TARGET_NAME}/PackageVersion.plist\"\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print PackageRevision\" \"${packInfoPlist}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :PackageRevision $buildNumber\" \"${packInfoPlist}\"\necho \"build number increase\"\nfi\n";
 		};
 		C95A1B4421EFAA590041F726 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -267,7 +399,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/opt/EasyDev/bin/md --xcbp";
+			shellScript = "/opt/EasyDev/bin/md --xcbp\n";
 		};
 		C95A1B4B21EFAA590041F726 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -280,7 +412,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n\nfunction doCodeSign() {\n    cslist=$(/usr/bin/find \"${1}\" -name \"_CodeSignature\")\n    SAVEIFS=\"$IFS\"\n    IFS=$'\\n'\n    for cs in $cslist; do\n    rm -rf \"${cs}\"\n    done\n    \n    # resign dylib\n    IFS=\"$SAVEIFS\"\n    dylibs=$(/usr/bin/find \"${1}\" -name \"*.dylib\")\n    # 解决路径粘连的问题\n    IFS=$'\\n'\n    for dylib in $dylibs; do\n    /usr/bin/codesign --force --sign \"${2}\" \"$dylib\"\n    done\n    \n    # resign frameworks\n    IFS=\"$SAVEIFS\"\n    frameworks=$(/usr/bin/find \"${1}\" -name \"*.framework\")\n    IFS=$'\\n'\n    for framework in $frameworks; do\n    /usr/bin/codesign --force --sign \"${2}\" \"$framework\"\n    done\n}\n\nif [ \"${CONFIGURATION}\" == \"Debug\" ];then\ntarget_exe_name=\"${TARGET_NAME}_arm64\"\nelif [ \"${CONFIGURATION}\" == \"Debug_32\" ];then\ntarget_exe_name=\"${TARGET_NAME}_armv7\"\nelse\necho \"错误的工程配置\"\nexit;\nfi\n\nresource_path=\"${SRCROOT}/Resources\"\ntarget_app_name=\"${TARGET_NAME}.app\"\nsign_id=\"${EXPANDED_CODE_SIGN_IDENTITY}\"\ndylib_path=\"${BUILT_PRODUCTS_DIR}/${PROJECT_NAME}.dylib\"\nresource_exe_path=\"${resource_path}/${target_exe_name}\"\nproduct_exe_path=\"${BUILT_PRODUCTS_DIR}/${target_app_name}/${TARGET_NAME}\"\nproduct_app_path=\"${BUILT_PRODUCTS_DIR}/${target_app_name}\"\nresource_app_path=\"${resource_path}/${target_app_name}\"\n\nrm -rf \"${product_app_path}\"\ncp -rf \"${resource_app_path}\" \"${product_app_path}\"\ncp -rf \"${resource_exe_path}\" \"${product_exe_path}\"\ncp -rf \"${dylib_path}\" \"${product_app_path}\"\n\n# remove Plugin an Watch\nrm -rf \"$product_app_path/PlugIns\"\nrm -rf \"$product_app_path/Watch\"\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleIdentifier ${PRODUCT_BUNDLE_IDENTIFIER}\" \"${product_app_path}/Info.plist\"\n\n/opt/EasyDev/bin/optool install -p \"@executable_path/${PROJECT_NAME}.dylib\" -t \"${product_exe_path}\"\n\n# 注意，这一步必须\nchmod 777 \"${product_exe_path}\"\n\n# 只需要签名动态库就行，app签名xcode会自己处理\ndoCodeSign \"${product_app_path}\" \"${sign_id}\"";
+			shellScript = "#!/bin/sh\n\nfunction doCodeSign() {\ncslist=$(/usr/bin/find \"${1}\" -name \"_CodeSignature\")\nSAVEIFS=\"$IFS\"\nIFS=$'\\n'\nfor cs in $cslist; do\nrm -rf \"${cs}\"\ndone\n\n# resign dylib\nIFS=\"$SAVEIFS\"\ndylibs=$(/usr/bin/find \"${1}\" -name \"*.dylib\")\n# 解决路径粘连的问题\nIFS=$'\\n'\nfor dylib in $dylibs; do\n/usr/bin/codesign --force --sign \"${2}\" \"$dylib\"\ndone\n\n# resign frameworks\nIFS=\"$SAVEIFS\"\nframeworks=$(/usr/bin/find \"${1}\" -name \"*.framework\")\nIFS=$'\\n'\nfor framework in $frameworks; do\n/usr/bin/codesign --force --sign \"${2}\" \"$framework\"\ndone\n}\n\nif [ \"${CONFIGURATION}\" == \"Debug\" ];then\ntarget_exe_name=\"${TARGET_NAME}_arm64\"\nelif [ \"${CONFIGURATION}\" == \"Debug_32\" ];then\ntarget_exe_name=\"${TARGET_NAME}_armv7\"\nelse\necho \"错误的工程配置\"\nexit;\nfi\n\nresource_path=\"${SRCROOT}/Resources\"\ntarget_app_name=\"${TARGET_NAME}.app\"\nsign_id=\"${EXPANDED_CODE_SIGN_IDENTITY}\"\ndylib_path=\"${BUILT_PRODUCTS_DIR}/${PROJECT_NAME}.dylib\"\nresource_exe_path=\"${resource_path}/${target_exe_name}\"\nproduct_exe_path=\"${BUILT_PRODUCTS_DIR}/${target_app_name}/${TARGET_NAME}\"\nproduct_app_path=\"${BUILT_PRODUCTS_DIR}/${target_app_name}\"\nresource_app_path=\"${resource_path}/${target_app_name}\"\n\n# 修复xcode10下embedded.mobileprovision文件生成后又被删除的问题\nmv -f \"${product_app_path}/embedded.mobileprovision\" \"${BUILT_PRODUCTS_DIR}/embedded.mobileprovision\"\nrm -rf \"${product_app_path}\"\ncp -rf \"${resource_app_path}\" \"${product_app_path}\"\ncp -rf \"${resource_exe_path}\" \"${product_exe_path}\"\ncp -rf \"${dylib_path}\" \"${product_app_path}\"\nmv -f \"${BUILT_PRODUCTS_DIR}/embedded.mobileprovision\" \"${product_app_path}/embedded.mobileprovision\"\n\n# 删除 Plugin 和 Watch 文件夹，提高安装拷贝速度\nrm -rf \"$product_app_path/PlugIns\"\nrm -rf \"$product_app_path/Watch\"\n\n# 修复xcode10自动生成info.plist导致覆盖原应用info.plist文件的问题\nproject_info_path=\"${SRCROOT}/${PROJECT_NAME}/Info.plist\"\nresource_info_path=\"${resource_app_path}/Info.plist\"\nif [ -f \"${project_info_path}\" ] && [ -f \"${resource_info_path}\" ];then\ndiff \"${project_info_path}\" \"${resource_info_path}\" > /dev/null\nif [ $? != 0 ];then\ncp -rf \"${resource_info_path}\" \"${project_info_path}\"\nfi\nelse\necho \"${project_info_path} or ${resource_info_path} does not exist, please check filename.\"\nfi\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleIdentifier ${PRODUCT_BUNDLE_IDENTIFIER}\" \"${product_app_path}/Info.plist\"\n\n/opt/EasyDev/bin/optool install -p \"@executable_path/${PROJECT_NAME}.dylib\" -t \"${product_exe_path}\"\n\n# 注意，这一步必须\nchmod 777 \"${product_exe_path}\"\n\n# 只需要签名动态库就行，app签名xcode会自己处理\ndoCodeSign \"${product_app_path}\" \"${sign_id}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -451,13 +583,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9B8J3GNFE6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = BulletDark/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bullet.message;
 				PRODUCT_NAME = JYLIM;
+				PROVISIONING_PROFILE = "40205852-98ba-4690-8958-1eb69c8e14b4";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Team Provisioning Profile: *.*";
 			};
 			name = Release;
 		};
@@ -465,13 +599,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9B8J3GNFE6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = BulletDark/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bullet.message;
 				PRODUCT_NAME = JYLIM;
+				PROVISIONING_PROFILE = "40205852-98ba-4690-8958-1eb69c8e14b4";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Team Provisioning Profile: *.*";
 			};
 			name = Debug;
 		};
