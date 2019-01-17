@@ -522,6 +522,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				DEVELOPMENT_TEAM = 9B8J3GNFE6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -535,6 +536,7 @@
 				EasyDevInstallOnProfiling = 0;
 				EasyDevUsePackageVersionPList = YES;
 				EasyDevkillProcessOnInstall = SpringBoard;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BulletDark/BulletDark-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -543,6 +545,22 @@
 					"$(EasyDevTheosPath)/vendor/include/**",
 				);
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				OTHER_CFLAGS = (
+					"-mllvm",
+					"-enable-strcry",
+					"-mllvm",
+					"-enable-indibran",
+					"-mllvm",
+					"-enable-bcfobf",
+					"-mllvm",
+					"-enable-cffobf",
+					"-mllvm",
+					"-bcf_prob=60",
+					"-mllvm",
+					"-bcf_cond_compl=2",
+					"-mllvm",
+					"-bcf_loop=2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -553,6 +571,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				DEVELOPMENT_TEAM = 9B8J3GNFE6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
