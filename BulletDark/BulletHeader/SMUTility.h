@@ -11,8 +11,8 @@
 }
 
 + (long long)topViewControllerType;
-+ (id)_topViewController:(id)arg1;
-+ (id)topViewController;
++ (UIViewController *)_topViewController:(id)arg1;
++ (UIViewController *)topViewController;
 + (void)hideHUDNoAnimation;
 + (void)hideHUD;
 + (void)showHUDOnView:(id)arg1;

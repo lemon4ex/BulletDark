@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C92D9B5D21F0DA3F0093D814 /* SMScanResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B5C21F0DA3F0093D814 /* SMScanResultHandler.h */; };
+		C92D9B5F21F0DB610093D814 /* LBXScanNative.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B5E21F0DB610093D814 /* LBXScanNative.h */; };
+		C92D9B6121F0DCEC0093D814 /* NIMImageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B6021F0DCEC0093D814 /* NIMImageObject.h */; };
+		C92D9B6421F0DD000093D814 /* NIMMessageObject-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B6221F0DD000093D814 /* NIMMessageObject-Protocol.h */; };
+		C92D9B6521F0DD000093D814 /* NIMMessageObject_Private-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B6321F0DD000093D814 /* NIMMessageObject_Private-Protocol.h */; };
+		C92D9B6721F0E3FB0093D814 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B6621F0E3FB0093D814 /* SDImageCache.h */; };
+		C92D9B6921F0E40A0093D814 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B6821F0E40A0093D814 /* SDWebImageManager.h */; };
+		C92D9B6B21F0EE9B0093D814 /* NIMFileCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B6A21F0EE9B0093D814 /* NIMFileCenter.h */; };
+		C92D9B6D21F0EEAC0093D814 /* NIMResourceManager-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B6C21F0EEAC0093D814 /* NIMResourceManager-Protocol.h */; };
+		C92D9B6F21F0F99B0093D814 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92D9B6E21F0F99B0093D814 /* UIKit.framework */; };
+		C92D9B7121F1018D0093D814 /* NIMSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B7021F1018D0093D814 /* NIMSDK.h */; };
+		C92D9B7521F102280093D814 /* NIMTeamManager-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B7221F102270093D814 /* NIMTeamManager-Protocol.h */; };
+		C92D9B7621F102280093D814 /* NIMTeamManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B7321F102280093D814 /* NIMTeamManager.h */; };
+		C92D9B7721F102280093D814 /* NIMTeamManagerWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B7421F102280093D814 /* NIMTeamManagerWrapper.h */; };
+		C92D9B7921F1046E0093D814 /* NTESLoginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B7821F1046E0093D814 /* NTESLoginManager.h */; };
+		C92D9B7B21F104900093D814 /* LoginData.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B7A21F104900093D814 /* LoginData.h */; };
+		C92D9B7D21F104A30093D814 /* SMUserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B7C21F104A30093D814 /* SMUserProfile.h */; };
+		C92D9B7F21F10A790093D814 /* SMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B7E21F10A790093D814 /* SMViewController.h */; };
+		C92D9B8121F10ECD0093D814 /* NIMSessionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B8021F10ECD0093D814 /* NIMSessionViewController.h */; };
+		C92D9B8321F10EDD0093D814 /* NTESSessionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B8221F10EDD0093D814 /* NTESSessionViewController.h */; };
+		C92D9B8A21F116E70093D814 /* WMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = C92D9B8621F116E60093D814 /* WMDragView.m */; };
+		C92D9B8B21F116E70093D814 /* WMDragView.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B8921F116E60093D814 /* WMDragView.h */; };
+		C92D9B8D21F119B70093D814 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92D9B8C21F119B70093D814 /* CoreGraphics.framework */; };
 		C95A1B4A21EFAA590041F726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95A1B4921EFAA590041F726 /* Foundation.framework */; };
 		C95A1B5E21EFAA5A0041F726 /* BulletDark.h in Headers */ = {isa = PBXBuildFile; fileRef = C95A1B5D21EFAA5A0041F726 /* BulletDark.h */; };
 		C95A1B6021EFAA5A0041F726 /* BulletDark.m in Sources */ = {isa = PBXBuildFile; fileRef = C95A1B5F21EFAA5A0041F726 /* BulletDark.m */; };
@@ -54,6 +77,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C92D9B5C21F0DA3F0093D814 /* SMScanResultHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMScanResultHandler.h; sourceTree = "<group>"; };
+		C92D9B5E21F0DB610093D814 /* LBXScanNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNative.h; sourceTree = "<group>"; };
+		C92D9B6021F0DCEC0093D814 /* NIMImageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMImageObject.h; sourceTree = "<group>"; };
+		C92D9B6221F0DD000093D814 /* NIMMessageObject-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NIMMessageObject-Protocol.h"; path = "../../../NIMSDKHeader/NIMMessageObject-Protocol.h"; sourceTree = "<group>"; };
+		C92D9B6321F0DD000093D814 /* NIMMessageObject_Private-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NIMMessageObject_Private-Protocol.h"; path = "../../../NIMSDKHeader/NIMMessageObject_Private-Protocol.h"; sourceTree = "<group>"; };
+		C92D9B6621F0E3FB0093D814 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		C92D9B6821F0E40A0093D814 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		C92D9B6A21F0EE9B0093D814 /* NIMFileCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMFileCenter.h; sourceTree = "<group>"; };
+		C92D9B6C21F0EEAC0093D814 /* NIMResourceManager-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NIMResourceManager-Protocol.h"; sourceTree = "<group>"; };
+		C92D9B6E21F0F99B0093D814 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C92D9B7021F1018D0093D814 /* NIMSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSDK.h; sourceTree = "<group>"; };
+		C92D9B7221F102270093D814 /* NIMTeamManager-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NIMTeamManager-Protocol.h"; sourceTree = "<group>"; };
+		C92D9B7321F102280093D814 /* NIMTeamManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeamManager.h; sourceTree = "<group>"; };
+		C92D9B7421F102280093D814 /* NIMTeamManagerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeamManagerWrapper.h; sourceTree = "<group>"; };
+		C92D9B7821F1046E0093D814 /* NTESLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESLoginManager.h; sourceTree = "<group>"; };
+		C92D9B7A21F104900093D814 /* LoginData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginData.h; sourceTree = "<group>"; };
+		C92D9B7C21F104A30093D814 /* SMUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUserProfile.h; sourceTree = "<group>"; };
+		C92D9B7E21F10A790093D814 /* SMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMViewController.h; sourceTree = "<group>"; };
+		C92D9B8021F10ECD0093D814 /* NIMSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSessionViewController.h; sourceTree = "<group>"; };
+		C92D9B8221F10EDD0093D814 /* NTESSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESSessionViewController.h; sourceTree = "<group>"; };
+		C92D9B8621F116E60093D814 /* WMDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDragView.m; sourceTree = "<group>"; };
+		C92D9B8921F116E60093D814 /* WMDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDragView.h; sourceTree = "<group>"; };
+		C92D9B8C21F119B70093D814 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C95A1B4621EFAA590041F726 /* BulletDark.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = BulletDark.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95A1B4921EFAA590041F726 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C95A1B4D21EFAA590041F726 /* JYLIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYLIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +156,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92D9B8D21F119B70093D814 /* CoreGraphics.framework in Frameworks */,
+				C92D9B6F21F0F99B0093D814 /* UIKit.framework in Frameworks */,
 				C95A1B4A21EFAA590041F726 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,6 +165,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C92D9B8421F116E60093D814 /* WMDragView */ = {
+			isa = PBXGroup;
+			children = (
+				C92D9B8621F116E60093D814 /* WMDragView.m */,
+				C92D9B8921F116E60093D814 /* WMDragView.h */,
+			);
+			path = WMDragView;
+			sourceTree = "<group>";
+		};
 		C95A1B3B21EFAA590041F726 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +195,8 @@
 		C95A1B4821EFAA590041F726 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C92D9B8C21F119B70093D814 /* CoreGraphics.framework */,
+				C92D9B6E21F0F99B0093D814 /* UIKit.framework */,
 				C95A1B4921EFAA590041F726 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -146,9 +205,10 @@
 		C95A1B5021EFAA590041F726 /* BulletDark */ = {
 			isa = PBXGroup;
 			children = (
-				C9F85DC921F085B100C3171E /* BulletHeader */,
 				C95A1B5D21EFAA5A0041F726 /* BulletDark.h */,
 				C95A1B5F21EFAA5A0041F726 /* BulletDark.m */,
+				C92D9B8421F116E60093D814 /* WMDragView */,
+				C9F85DC921F085B100C3171E /* BulletHeader */,
 				C95A1B5121EFAA590041F726 /* Package */,
 				C95A1B6521EFAA5A0041F726 /* Resources */,
 				C95A1B5521EFAA590041F726 /* Supporting Files */,
@@ -225,6 +285,22 @@
 		C9F85DC921F085B100C3171E /* BulletHeader */ = {
 			isa = PBXGroup;
 			children = (
+				C92D9B7C21F104A30093D814 /* SMUserProfile.h */,
+				C92D9B7A21F104900093D814 /* LoginData.h */,
+				C92D9B7821F1046E0093D814 /* NTESLoginManager.h */,
+				C92D9B7221F102270093D814 /* NIMTeamManager-Protocol.h */,
+				C92D9B7321F102280093D814 /* NIMTeamManager.h */,
+				C92D9B7421F102280093D814 /* NIMTeamManagerWrapper.h */,
+				C92D9B6821F0E40A0093D814 /* SDWebImageManager.h */,
+				C92D9B6C21F0EEAC0093D814 /* NIMResourceManager-Protocol.h */,
+				C92D9B6A21F0EE9B0093D814 /* NIMFileCenter.h */,
+				C92D9B6621F0E3FB0093D814 /* SDImageCache.h */,
+				C92D9B6321F0DD000093D814 /* NIMMessageObject_Private-Protocol.h */,
+				C92D9B7021F1018D0093D814 /* NIMSDK.h */,
+				C92D9B6221F0DD000093D814 /* NIMMessageObject-Protocol.h */,
+				C92D9B6021F0DCEC0093D814 /* NIMImageObject.h */,
+				C92D9B5E21F0DB610093D814 /* LBXScanNative.h */,
+				C92D9B5C21F0DA3F0093D814 /* SMScanResultHandler.h */,
 				C9F85DCA21F085B100C3171E /* NTESCustomAttachmentInfo.h */,
 				C9F85DCB21F085B100C3171E /* NIMSession-SMNIMSession.h */,
 				C9F85DCC21F085B100C3171E /* SMContactManager.h */,
@@ -248,6 +324,7 @@
 				C9F85DDE21F085B100C3171E /* SMC2CRedPacketApiManager.h */,
 				C9F85DDF21F085B100C3171E /* NIMMessage.h */,
 				C9F85DE021F085B100C3171E /* OpenRedPacketRequest.h */,
+				C92D9B7E21F10A790093D814 /* SMViewController.h */,
 				C9F85DE121F085B100C3171E /* SMUTility.h */,
 				C9F85DE221F085B100C3171E /* SMHttpResponse.h */,
 				C9F85DE321F085B100C3171E /* SMC2CRedPacketV2ApiManager.h */,
@@ -256,6 +333,8 @@
 				C9F85DE621F085B100C3171E /* NIMTeamManagerDelegate.h */,
 				C9F85DE721F085B100C3171E /* NIMMessageInfo.h */,
 				C9F85DE821F085B100C3171E /* SMBaseApiManager.h */,
+				C92D9B8021F10ECD0093D814 /* NIMSessionViewController.h */,
+				C92D9B8221F10EDD0093D814 /* NTESSessionViewController.h */,
 			);
 			path = BulletHeader;
 			sourceTree = "<group>";
@@ -269,8 +348,10 @@
 			files = (
 				C9F85DF221F085B200C3171E /* NIMSessionManager.h in Headers */,
 				C9F85DE921F085B200C3171E /* NTESCustomAttachmentInfo.h in Headers */,
+				C92D9B6521F0DD000093D814 /* NIMMessageObject_Private-Protocol.h in Headers */,
 				C9F85E0321F085B200C3171E /* NIMMessageObject_Private-Protocol.h in Headers */,
 				C9F85DFA21F085B200C3171E /* NIMManager-Protocol.h in Headers */,
+				C92D9B7F21F10A790093D814 /* SMViewController.h in Headers */,
 				C9F85DFC21F085B200C3171E /* NIMManager.h in Headers */,
 				C9F85DF821F085B200C3171E /* NIMChatManagerWrapper.h in Headers */,
 				C9F85DEC21F085B200C3171E /* NIMLoginManagerDelegate.h in Headers */,
@@ -281,14 +362,29 @@
 				C95A1B5E21EFAA5A0041F726 /* BulletDark.h in Headers */,
 				C9F85DF721F085B200C3171E /* NIMChatManager.h in Headers */,
 				C9F85DFB21F085B200C3171E /* SMRedPacketDelegate.h in Headers */,
+				C92D9B6121F0DCEC0093D814 /* NIMImageObject.h in Headers */,
 				C9F85DED21F085B200C3171E /* SMSensorsManager.h in Headers */,
+				C92D9B6421F0DD000093D814 /* NIMMessageObject-Protocol.h in Headers */,
+				C92D9B7121F1018D0093D814 /* NIMSDK.h in Headers */,
+				C92D9B5D21F0DA3F0093D814 /* SMScanResultHandler.h in Headers */,
+				C92D9B7621F102280093D814 /* NIMTeamManager.h in Headers */,
+				C92D9B7D21F104A30093D814 /* SMUserProfile.h in Headers */,
 				C9F85DF121F085B200C3171E /* NTESRedPacketAttachment.h in Headers */,
 				C9F85DF621F085B200C3171E /* NIMChatManagerDelegate.h in Headers */,
+				C92D9B7521F102280093D814 /* NIMTeamManager-Protocol.h in Headers */,
+				C92D9B7921F1046E0093D814 /* NTESLoginManager.h in Headers */,
+				C92D9B8B21F116E70093D814 /* WMDragView.h in Headers */,
+				C92D9B7B21F104900093D814 /* LoginData.h in Headers */,
 				C9F85DEE21F085B200C3171E /* NIMUserManagerDelegate.h in Headers */,
+				C92D9B8321F10EDD0093D814 /* NTESSessionViewController.h in Headers */,
 				C9F85DEF21F085B200C3171E /* OpenRequest.h in Headers */,
 				C9F85E0421F085B200C3171E /* NIMCustomObject.h in Headers */,
 				C9F85E0621F085B200C3171E /* NIMMessageInfo.h in Headers */,
 				C9F85DF521F085B200C3171E /* NIMCustomAttachment.h in Headers */,
+				C92D9B8121F10ECD0093D814 /* NIMSessionViewController.h in Headers */,
+				C92D9B6D21F0EEAC0093D814 /* NIMResourceManager-Protocol.h in Headers */,
+				C92D9B6B21F0EE9B0093D814 /* NIMFileCenter.h in Headers */,
+				C92D9B5F21F0DB610093D814 /* LBXScanNative.h in Headers */,
 				C9F85DFF21F085B200C3171E /* OpenRedPacketRequest.h in Headers */,
 				C9F85DF421F085B200C3171E /* NTESRedPacketManager.h in Headers */,
 				C9F85E0721F085B200C3171E /* SMBaseApiManager.h in Headers */,
@@ -296,8 +392,11 @@
 				C9F85DF021F085B200C3171E /* NIMMessageObject-Protocol.h in Headers */,
 				C9F85DF321F085B200C3171E /* NIMSession.h in Headers */,
 				C9F85E0221F085B200C3171E /* SMC2CRedPacketV2ApiManager.h in Headers */,
+				C92D9B7721F102280093D814 /* NIMTeamManagerWrapper.h in Headers */,
 				C9F85DEB21F085B200C3171E /* SMContactManager.h in Headers */,
 				C9F85DFE21F085B200C3171E /* NIMMessage.h in Headers */,
+				C92D9B6921F0E40A0093D814 /* SDWebImageManager.h in Headers */,
+				C92D9B6721F0E3FB0093D814 /* SDImageCache.h in Headers */,
 				C9F85E0521F085B200C3171E /* NIMTeamManagerDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,7 +511,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n\nfunction doCodeSign() {\ncslist=$(/usr/bin/find \"${1}\" -name \"_CodeSignature\")\nSAVEIFS=\"$IFS\"\nIFS=$'\\n'\nfor cs in $cslist; do\nrm -rf \"${cs}\"\ndone\n\n# resign dylib\nIFS=\"$SAVEIFS\"\ndylibs=$(/usr/bin/find \"${1}\" -name \"*.dylib\")\n# 解决路径粘连的问题\nIFS=$'\\n'\nfor dylib in $dylibs; do\n/usr/bin/codesign --force --sign \"${2}\" \"$dylib\"\ndone\n\n# resign frameworks\nIFS=\"$SAVEIFS\"\nframeworks=$(/usr/bin/find \"${1}\" -name \"*.framework\")\nIFS=$'\\n'\nfor framework in $frameworks; do\n/usr/bin/codesign --force --sign \"${2}\" \"$framework\"\ndone\n}\n\nif [ \"${CONFIGURATION}\" == \"Debug\" ];then\ntarget_exe_name=\"${TARGET_NAME}_arm64\"\nelif [ \"${CONFIGURATION}\" == \"Debug_32\" ];then\ntarget_exe_name=\"${TARGET_NAME}_armv7\"\nelse\necho \"错误的工程配置\"\nexit;\nfi\n\nresource_path=\"${SRCROOT}/Resources\"\ntarget_app_name=\"${TARGET_NAME}.app\"\nsign_id=\"${EXPANDED_CODE_SIGN_IDENTITY}\"\ndylib_path=\"${BUILT_PRODUCTS_DIR}/${PROJECT_NAME}.dylib\"\nresource_exe_path=\"${resource_path}/${target_exe_name}\"\nproduct_exe_path=\"${BUILT_PRODUCTS_DIR}/${target_app_name}/${TARGET_NAME}\"\nproduct_app_path=\"${BUILT_PRODUCTS_DIR}/${target_app_name}\"\nresource_app_path=\"${resource_path}/${target_app_name}\"\n\n# 修复xcode10下embedded.mobileprovision文件生成后又被删除的问题\nmv -f \"${product_app_path}/embedded.mobileprovision\" \"${BUILT_PRODUCTS_DIR}/embedded.mobileprovision\"\nrm -rf \"${product_app_path}\"\ncp -rf \"${resource_app_path}\" \"${product_app_path}\"\ncp -rf \"${resource_exe_path}\" \"${product_exe_path}\"\ncp -rf \"${dylib_path}\" \"${product_app_path}\"\nmv -f \"${BUILT_PRODUCTS_DIR}/embedded.mobileprovision\" \"${product_app_path}/embedded.mobileprovision\"\n\n# 删除 Plugin 和 Watch 文件夹，提高安装拷贝速度\nrm -rf \"$product_app_path/PlugIns\"\nrm -rf \"$product_app_path/Watch\"\n\n# 修复xcode10自动生成info.plist导致覆盖原应用info.plist文件的问题\nproject_info_path=\"${SRCROOT}/${PROJECT_NAME}/Info.plist\"\nresource_info_path=\"${resource_app_path}/Info.plist\"\nif [ -f \"${project_info_path}\" ] && [ -f \"${resource_info_path}\" ];then\ndiff \"${project_info_path}\" \"${resource_info_path}\" > /dev/null\nif [ $? != 0 ];then\ncp -rf \"${resource_info_path}\" \"${project_info_path}\"\nfi\nelse\necho \"${project_info_path} or ${resource_info_path} does not exist, please check filename.\"\nfi\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleIdentifier ${PRODUCT_BUNDLE_IDENTIFIER}\" \"${product_app_path}/Info.plist\"\n\n/opt/EasyDev/bin/optool install -p \"@executable_path/${PROJECT_NAME}.dylib\" -t \"${product_exe_path}\"\n\n# 注意，这一步必须\nchmod 777 \"${product_exe_path}\"\n\n# 只需要签名动态库就行，app签名xcode会自己处理\ndoCodeSign \"${product_app_path}\" \"${sign_id}\"\n";
+			shellScript = "#!/bin/sh\n\nfunction doCodeSign() {\ncslist=$(/usr/bin/find \"${1}\" -name \"_CodeSignature\")\nSAVEIFS=\"$IFS\"\nIFS=$'\\n'\nfor cs in $cslist; do\nrm -rf \"${cs}\"\ndone\n\n# resign dylib\nIFS=\"$SAVEIFS\"\ndylibs=$(/usr/bin/find \"${1}\" -name \"*.dylib\")\n# 解决路径粘连的问题\nIFS=$'\\n'\nfor dylib in $dylibs; do\n/usr/bin/codesign --force --sign \"${2}\" \"$dylib\"\ndone\n\n# resign frameworks\nIFS=\"$SAVEIFS\"\nframeworks=$(/usr/bin/find \"${1}\" -name \"*.framework\")\nIFS=$'\\n'\nfor framework in $frameworks; do\n/usr/bin/codesign --force --sign \"${2}\" \"$framework\"\ndone\n}\n\nif [ \"${CONFIGURATION}\" == \"Debug\" ];then\ntarget_exe_name=\"${TARGET_NAME}_arm64\"\nelif [ \"${CONFIGURATION}\" == \"Debug_32\" ];then\ntarget_exe_name=\"${TARGET_NAME}_armv7\"\nelse\necho \"错误的工程配置\"\nexit;\nfi\n\nresource_path=\"${SRCROOT}/Resources\"\ntarget_app_name=\"${TARGET_NAME}.app\"\nsign_id=\"${EXPANDED_CODE_SIGN_IDENTITY}\"\ndylib_path=\"${BUILT_PRODUCTS_DIR}/${PROJECT_NAME}.dylib\"\nresource_exe_path=\"${resource_path}/${target_exe_name}\"\nproduct_exe_path=\"${BUILT_PRODUCTS_DIR}/${target_app_name}/${TARGET_NAME}\"\nproduct_app_path=\"${BUILT_PRODUCTS_DIR}/${target_app_name}\"\nproduct_framework_path=\"${BUILT_PRODUCTS_DIR}/${target_app_name}/Frameworks\"\nresource_app_path=\"${resource_path}/${target_app_name}\"\n\n# 修复xcode10下embedded.mobileprovision文件生成后又被删除的问题\nmv -f \"${product_app_path}/embedded.mobileprovision\" \"${BUILT_PRODUCTS_DIR}/embedded.mobileprovision\"\nrm -rf \"${product_app_path}\"\ncp -rf \"${resource_app_path}\" \"${product_app_path}\"\ncp -rf \"${resource_exe_path}\" \"${product_exe_path}\"\ncp -rf \"${dylib_path}\" \"${product_app_path}\"\nmv -f \"${BUILT_PRODUCTS_DIR}/embedded.mobileprovision\" \"${product_app_path}/embedded.mobileprovision\"\n\n# 删除 Plugin 和 Watch 文件夹，提高安装拷贝速度\nrm -rf \"$product_app_path/PlugIns\"\nrm -rf \"$product_app_path/Watch\"\n\n# 修复xcode10自动生成info.plist导致覆盖原应用info.plist文件的问题\nproject_info_path=\"${SRCROOT}/${PROJECT_NAME}/Info.plist\"\nresource_info_path=\"${resource_app_path}/Info.plist\"\nif [ -f \"${project_info_path}\" ] && [ -f \"${resource_info_path}\" ];then\ndiff \"${project_info_path}\" \"${resource_info_path}\" > /dev/null\nif [ $? != 0 ];then\ncp -rf \"${resource_info_path}\" \"${project_info_path}\"\nfi\nelse\necho \"${project_info_path} or ${resource_info_path} does not exist, please check filename.\"\nfi\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleIdentifier ${PRODUCT_BUNDLE_IDENTIFIER}\" \"${product_app_path}/Info.plist\"\n\n# 加入Reveal库\ncp -rf \"${EasyDevPath}/frameworks/RevealServer.framework\" \"${product_framework_path}/RevealServer.framework\"\n/opt/EasyDev/bin/optool install -p \"@rpath/RevealServer.framework/RevealServer\" -t \"${product_exe_path}\"\n\n/opt/EasyDev/bin/optool install -p \"@executable_path/${PROJECT_NAME}.dylib\" -t \"${product_exe_path}\"\n\n# 注意，这一步必须\nchmod 777 \"${product_exe_path}\"\n\n# 只需要签名动态库就行，app签名xcode会自己处理\ndoCodeSign \"${product_app_path}\" \"${sign_id}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -421,6 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92D9B8A21F116E70093D814 /* WMDragView.m in Sources */,
 				C95A1B6021EFAA5A0041F726 /* BulletDark.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,7 +702,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9B8J3GNFE6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -610,7 +710,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bullet.message;
 				PRODUCT_NAME = JYLIM;
 				PROVISIONING_PROFILE = "40205852-98ba-4690-8958-1eb69c8e14b4";
-				PROVISIONING_PROFILE_SPECIFIER = "iOS Team Provisioning Profile: *.*";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -618,7 +718,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9B8J3GNFE6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -626,7 +726,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bullet.message;
 				PRODUCT_NAME = JYLIM;
 				PROVISIONING_PROFILE = "40205852-98ba-4690-8958-1eb69c8e14b4";
-				PROVISIONING_PROFILE_SPECIFIER = "iOS Team Provisioning Profile: *.*";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};

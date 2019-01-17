@@ -13,7 +13,7 @@
 }
 
 + (id)session:(id)arg1 type:(long long)arg2;
-@property(nonatomic) long long sessionType; ///< 0：个人，1：群
+@property(nonatomic) long long sessionType; ///< 0：普通，2：群
 @property(copy, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
 - (id)remoteSessionKey;
 - (id)description;

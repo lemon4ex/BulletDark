@@ -60,7 +60,7 @@
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 @property(copy, nonatomic) NSString *messageId; // @synthesize messageId=_messageId;
 @property(copy, nonatomic) NSString *from; // @synthesize from=_from;
-@property(nonatomic) long long messageType; // @synthesize messageType=_messageType;
+@property(nonatomic) long long messageType; ///< 0:文本，1:图片，100:红包
 @property(copy, nonatomic) NIMSession *session; // @synthesize session=_session;
 @property(nonatomic) long long status; // @synthesize status=_status;
 - (_Bool)shouldPersist;

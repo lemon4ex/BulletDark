@@ -16,7 +16,7 @@
 - (void)sendChatroomMessage:(id)arg1;
 - (void)sendAppMessage:(id)arg1;
 - (void)sendMessageByApp:(id)arg1;
-- (void)fetchMessageAttachment:(id)arg1 didCompleteWithError:(id)arg2;
+- (void)fetchMessageAttachment:(id)arg1 didCompleteWithError:(void(^)(NSError *error))arg2;
 - (void)fetchMessageAttachment:(id)arg1 progress:(float)arg2;
 - (void)fireUploadSuccess:(id)arg1 forMessage:(id)arg2;
 - (void)fireUploadError:(id)arg1 forMessage:(id)arg2;
