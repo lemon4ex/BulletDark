@@ -41,6 +41,10 @@
 #import "NTESLoginManager.h"
 #import "NTESSessionViewController.h"
 #import "WMDragView.h"
+#import "NIMTeam.h"
+#import "QHSpeechSynthesizerQueue.h"
+
+static QHSpeechSynthesizerQueue *g_speechSynthesizerQueue;
 
 CHDeclareClass(NIMChatManager)
 CHMethod1(void, NIMChatManager, onRecvMessages, NSArray<NIMMessage *> *, messages){
@@ -137,6 +141,9 @@ CHMethod1(void, NIMChatManager, onRecvMessages, NSArray<NIMMessage *> *, message
                         [api asyncOpenRedPacketWithRequest:req callback:^(BOOL success, SMHttpResponse *resp) {
                             if(success){
                                 [[objc_getClass("SMSensorsManager") shareManager]event:@"发送消息" attributes:@{@"message_type":@"group",@"content_type":@"open_ctoc"}];
+                                NIMTeamManager *teamMgr = [objc_getClass("NIMTeamManager") sharedManager];
+                                NIMTeam *team = [teamMgr teamById:msg.session.sessionId];
+                                [g_speechSynthesizerQueue readLast:[NSString stringWithFormat:@"%@抢到一个红包",team.teamName] withLanguage:@"zh-CN" andRate:0.6];
                                 NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
                                 if([userDefaults boolForKey:@"enterChatRoom"]){
                                     UIViewController *viewController = [objc_getClass("SMUTility") topViewController];
@@ -227,4 +234,5 @@ CHConstructor
     CHHook1(SMScanResultHandler, showJoinGroupAlertWithTeamId);
     CHLoadLateClass(NTESSessionListViewController);
     CHHook0(NTESSessionListViewController, viewDidLoad);
+    g_speechSynthesizerQueue = [[QHSpeechSynthesizerQueue alloc]init];
 }

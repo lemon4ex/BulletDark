@@ -30,6 +30,12 @@
 		C92D9B8A21F116E70093D814 /* WMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = C92D9B8621F116E60093D814 /* WMDragView.m */; };
 		C92D9B8B21F116E70093D814 /* WMDragView.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B8921F116E60093D814 /* WMDragView.h */; };
 		C92D9B8D21F119B70093D814 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92D9B8C21F119B70093D814 /* CoreGraphics.framework */; };
+		C92D9B9121F19F4A0093D814 /* NIMTeamMember.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B8E21F19F490093D814 /* NIMTeamMember.h */; };
+		C92D9B9221F19F4A0093D814 /* NIMTeam.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B8F21F19F490093D814 /* NIMTeam.h */; };
+		C92D9B9321F19F4A0093D814 /* NIMTeamMemberManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B9021F19F4A0093D814 /* NIMTeamMemberManager.h */; };
+		C92D9B9721F1A1700093D814 /* QHSpeechSynthesizerQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C92D9B9521F1A1700093D814 /* QHSpeechSynthesizerQueue.m */; };
+		C92D9B9821F1A1700093D814 /* QHSpeechSynthesizerQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = C92D9B9621F1A1700093D814 /* QHSpeechSynthesizerQueue.h */; };
+		C92D9B9B21F1A3140093D814 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92D9B9A21F1A3140093D814 /* AVFoundation.framework */; };
 		C95A1B4A21EFAA590041F726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95A1B4921EFAA590041F726 /* Foundation.framework */; };
 		C95A1B5E21EFAA5A0041F726 /* BulletDark.h in Headers */ = {isa = PBXBuildFile; fileRef = C95A1B5D21EFAA5A0041F726 /* BulletDark.h */; };
 		C95A1B6021EFAA5A0041F726 /* BulletDark.m in Sources */ = {isa = PBXBuildFile; fileRef = C95A1B5F21EFAA5A0041F726 /* BulletDark.m */; };
@@ -100,6 +106,13 @@
 		C92D9B8621F116E60093D814 /* WMDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDragView.m; sourceTree = "<group>"; };
 		C92D9B8921F116E60093D814 /* WMDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDragView.h; sourceTree = "<group>"; };
 		C92D9B8C21F119B70093D814 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C92D9B8E21F19F490093D814 /* NIMTeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeamMember.h; sourceTree = "<group>"; };
+		C92D9B8F21F19F490093D814 /* NIMTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeam.h; sourceTree = "<group>"; };
+		C92D9B9021F19F4A0093D814 /* NIMTeamMemberManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeamMemberManager.h; sourceTree = "<group>"; };
+		C92D9B9521F1A1700093D814 /* QHSpeechSynthesizerQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHSpeechSynthesizerQueue.m; sourceTree = "<group>"; };
+		C92D9B9621F1A1700093D814 /* QHSpeechSynthesizerQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHSpeechSynthesizerQueue.h; sourceTree = "<group>"; };
+		C92D9B9A21F1A3140093D814 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C92D9B9C21F1A31D0093D814 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		C95A1B4621EFAA590041F726 /* BulletDark.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = BulletDark.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95A1B4921EFAA590041F726 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C95A1B4D21EFAA590041F726 /* JYLIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYLIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92D9B9B21F1A3140093D814 /* AVFoundation.framework in Frameworks */,
 				C92D9B8D21F119B70093D814 /* CoreGraphics.framework in Frameworks */,
 				C92D9B6F21F0F99B0093D814 /* UIKit.framework in Frameworks */,
 				C95A1B4A21EFAA590041F726 /* Foundation.framework in Frameworks */,
@@ -172,6 +186,15 @@
 				C92D9B8921F116E60093D814 /* WMDragView.h */,
 			);
 			path = WMDragView;
+			sourceTree = "<group>";
+		};
+		C92D9B9421F1A1700093D814 /* QHSpeechSynthesizerQueue */ = {
+			isa = PBXGroup;
+			children = (
+				C92D9B9521F1A1700093D814 /* QHSpeechSynthesizerQueue.m */,
+				C92D9B9621F1A1700093D814 /* QHSpeechSynthesizerQueue.h */,
+			);
+			path = QHSpeechSynthesizerQueue;
 			sourceTree = "<group>";
 		};
 		C95A1B3B21EFAA590041F726 = {
@@ -195,6 +218,8 @@
 		C95A1B4821EFAA590041F726 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C92D9B9C21F1A31D0093D814 /* AVKit.framework */,
+				C92D9B9A21F1A3140093D814 /* AVFoundation.framework */,
 				C92D9B8C21F119B70093D814 /* CoreGraphics.framework */,
 				C92D9B6E21F0F99B0093D814 /* UIKit.framework */,
 				C95A1B4921EFAA590041F726 /* Foundation.framework */,
@@ -207,6 +232,7 @@
 			children = (
 				C95A1B5D21EFAA5A0041F726 /* BulletDark.h */,
 				C95A1B5F21EFAA5A0041F726 /* BulletDark.m */,
+				C92D9B9421F1A1700093D814 /* QHSpeechSynthesizerQueue */,
 				C92D9B8421F116E60093D814 /* WMDragView */,
 				C9F85DC921F085B100C3171E /* BulletHeader */,
 				C95A1B5121EFAA590041F726 /* Package */,
@@ -291,6 +317,9 @@
 				C92D9B7221F102270093D814 /* NIMTeamManager-Protocol.h */,
 				C92D9B7321F102280093D814 /* NIMTeamManager.h */,
 				C92D9B7421F102280093D814 /* NIMTeamManagerWrapper.h */,
+				C92D9B8F21F19F490093D814 /* NIMTeam.h */,
+				C92D9B8E21F19F490093D814 /* NIMTeamMember.h */,
+				C92D9B9021F19F4A0093D814 /* NIMTeamMemberManager.h */,
 				C92D9B6821F0E40A0093D814 /* SDWebImageManager.h */,
 				C92D9B6C21F0EEAC0093D814 /* NIMResourceManager-Protocol.h */,
 				C92D9B6A21F0EE9B0093D814 /* NIMFileCenter.h */,
@@ -366,6 +395,7 @@
 				C9F85DED21F085B200C3171E /* SMSensorsManager.h in Headers */,
 				C92D9B6421F0DD000093D814 /* NIMMessageObject-Protocol.h in Headers */,
 				C92D9B7121F1018D0093D814 /* NIMSDK.h in Headers */,
+				C92D9B9121F19F4A0093D814 /* NIMTeamMember.h in Headers */,
 				C92D9B5D21F0DA3F0093D814 /* SMScanResultHandler.h in Headers */,
 				C92D9B7621F102280093D814 /* NIMTeamManager.h in Headers */,
 				C92D9B7D21F104A30093D814 /* SMUserProfile.h in Headers */,
@@ -377,10 +407,13 @@
 				C92D9B7B21F104900093D814 /* LoginData.h in Headers */,
 				C9F85DEE21F085B200C3171E /* NIMUserManagerDelegate.h in Headers */,
 				C92D9B8321F10EDD0093D814 /* NTESSessionViewController.h in Headers */,
+				C92D9B9221F19F4A0093D814 /* NIMTeam.h in Headers */,
 				C9F85DEF21F085B200C3171E /* OpenRequest.h in Headers */,
 				C9F85E0421F085B200C3171E /* NIMCustomObject.h in Headers */,
 				C9F85E0621F085B200C3171E /* NIMMessageInfo.h in Headers */,
+				C92D9B9321F19F4A0093D814 /* NIMTeamMemberManager.h in Headers */,
 				C9F85DF521F085B200C3171E /* NIMCustomAttachment.h in Headers */,
+				C92D9B9821F1A1700093D814 /* QHSpeechSynthesizerQueue.h in Headers */,
 				C92D9B8121F10ECD0093D814 /* NIMSessionViewController.h in Headers */,
 				C92D9B6D21F0EEAC0093D814 /* NIMResourceManager-Protocol.h in Headers */,
 				C92D9B6B21F0EE9B0093D814 /* NIMFileCenter.h in Headers */,
@@ -522,6 +555,7 @@
 			files = (
 				C92D9B8A21F116E70093D814 /* WMDragView.m in Sources */,
 				C95A1B6021EFAA5A0041F726 /* BulletDark.m in Sources */,
+				C92D9B9721F1A1700093D814 /* QHSpeechSynthesizerQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

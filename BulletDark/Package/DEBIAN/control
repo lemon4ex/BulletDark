@@ -1,6 +1,6 @@
 Package: net.ymlab.dev.BulletDark
 Name: BulletDark
-Version: 1.0-6
+Version: 1.0-8
 Description: 
 Section: Tweaks
 Depends: firmware (>= 7.0), mobilesubstrate
