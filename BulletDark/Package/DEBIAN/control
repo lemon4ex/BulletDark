@@ -1,7 +1,7 @@
 Package: net.ymlab.dev.BulletDark
 Name: BulletDark
-Version: 1.0-8
-Description: 
+Version: 1.0-11
+Description: 聊天宝抢红包插件，基于聊天宝1.0.2版本开发。<br>主要功能：<br>1.自动抢红包。<br>2.可设置抢包后自动进入抢到红包的群。<br>3.自动扫码进群，出现验证时自动提交验证信息。
 Section: Tweaks
 Depends: firmware (>= 7.0), mobilesubstrate
 Conflicts: 
@@ -11,7 +11,7 @@ Architecture: iphoneos-arm
 Author: h4ck
 dev: 
 Homepage: https://ymlab.net
-Depiction: 
-Maintainer: 
+Depiction:
+Maintainer: h4ck
 Icon: 
 
